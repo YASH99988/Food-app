@@ -151,7 +151,10 @@ export const numIncrease = function () {
   for (let i = 0; i < state.carts.length; i++) {
     if (i > 0) return i;
   }
-  console.log("Welcome")
 };
+const newFeatures = function () {
+  console.log("Welcome to the application!");
+};
+newFeatures();
 init1();
 console.log("Carts ->", state.carts);
